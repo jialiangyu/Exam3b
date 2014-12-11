@@ -16,7 +16,7 @@
         <h2><asp:Label ID="lb_sdd" runat="server" meta:resourceKey="lb_sdd" Text="Software Design and Development"></asp:Label></h2>
         <br />
         <br />
-        <asp:Label ID="lb_pleasechooseyourlanguage" runat="server" meta:resourceKey="lb_pleasechooseyourlanguage" Text="Please choose your language"></asp:Label>
+        <div class="boder"><asp:Label ID="lb_pleasechooseyourlanguage" runat="server" meta:resourceKey="lb_pleasechooseyourlanguage" Text="Please choose your language"></asp:Label>
         :
         <br />
         <asp:DropDownList ID="language1" runat="server" AutoPostBack="true">
@@ -29,6 +29,8 @@
         <br />
         <asp:Label ID="lb_mynameis" runat="server" meta:resourceKey="lb_mynameis" Text="My name is:"></asp:Label>
         &nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" BackColor="#CC0000" ControlToValidate="TextBox1" ErrorMessage="Please Type Your Name"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Label ID="lb_im" runat="server" meta:resourceKey="lb_im" Text="I am:"></asp:Label>
@@ -43,6 +45,8 @@
         <br />
         <asp:Label ID="lb_whenigraduate" runat="server" meta:resourceKey="lb_whenigraduate" Text="When I graduate, I hope to earn"></asp:Label>
 &nbsp;<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" BackColor="#CC0000" ControlToValidate="TextBox2" ErrorMessage="Please Type Your Salary"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Button ID="bt_submit" runat="server" meta:resourceKey="bt_submit" Text="Submit" />
@@ -78,6 +82,7 @@
 &nbsp;<asp:HyperLink ID="hl_github" runat="server" NavigateUrl="https://github.com/jialiangyu">GitHub</asp:HyperLink>
     
     </div>
+        </div>
     </form>
 </body>
 </html>
