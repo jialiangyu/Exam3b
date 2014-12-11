@@ -138,11 +138,17 @@
   <data name="lb_iwishyouwell.text" xml:space="preserve">
     <value>I wish you well in your career after graduation. I hope you earn</value>
   </data>
+  <data name="lb_mr" xml:space="preserve">
+    <value>Mr.</value>
+  </data>
   <data name="lb_mynameis.text" xml:space="preserve">
     <value>My name is:</value>
   </data>
   <data name="lb_pleasechooseyourlanguage.text" xml:space="preserve">
     <value>Please choose your language</value>
+  </data>
+  <data name="lb_pleasechooseyourlanguage1.text" xml:space="preserve">
+    <value>Please choose your language:</value>
   </data>
   <data name="lb_pleasevisit.text" xml:space="preserve">
     <value>Please visit me on</value>
