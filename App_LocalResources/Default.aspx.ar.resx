@@ -120,23 +120,32 @@
   <data name="bt_submit.text" xml:space="preserve">
     <value>عرض</value>
   </data>
-  <data name="lb_female.text" xml:space="preserve">
-    <value>أنثى</value>
+  <data name="lb_asasalary.text" xml:space="preserve">
+    <value>كما راتبا في أول وظيفة الخاص بك!</value>
+  </data>
+  <data name="lb_hello.text" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="lb_ihope.text" xml:space="preserve">
+    <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
   </data>
   <data name="lb_im.text" xml:space="preserve">
-    <value>أنا</value>
+    <value>أنا:</value>
   </data>
   <data name="lb_iplantograduateon.text" xml:space="preserve">
-    <value>أخطط لتخريج على</value>
+    <value>أخطط لتخريج على:</value>
   </data>
-  <data name="lb_male.text" xml:space="preserve">
-    <value>ذكر</value>
+  <data name="lb_iwishyouwell.text" xml:space="preserve">
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تكسب</value>
   </data>
   <data name="lb_mynameis.text" xml:space="preserve">
-    <value>اسمي هو</value>
+    <value>اسمي هو:</value>
   </data>
   <data name="lb_pleasechooseyourlanguage.text" xml:space="preserve">
     <value>الرجاء اختيار لغتك</value>
+  </data>
+  <data name="lb_pleasevisit.text" xml:space="preserve">
+    <value>يرجى زيارة لي على</value>
   </data>
   <data name="lb_sdd.text" xml:space="preserve">
     <value>تصميم وتطوير البرمجيات</value>
@@ -146,5 +155,11 @@
   </data>
   <data name="lb_whenigraduate.text" xml:space="preserve">
     <value>عندما تخرجي آمل أن أتمكن من كسب</value>
+  </data>
+  <data name="rb_female.text" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="rb_male.text" xml:space="preserve">
+    <value>ذكر</value>
   </data>
 </root>
